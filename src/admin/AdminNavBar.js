@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route, Routes, Link } from 'react-router-dom'
 import './admin.css'
+import axios from 'axios';
 import config from '../config';
 
 import AdminHome from './AdminHome';
